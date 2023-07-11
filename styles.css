@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@300;900&family=Source+Sans+Pro:wght@300;900&display=swap');
+
+header {
+  box-sizing: border-box;
+  height: 100px;
+  margin: 0;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.logo-img {
+  width: 200px;
+  height: 90px;
+  margin: auto 10px;
+}
+
+.user-img, .img1 {
+    width: 50px;
+  height: 50px;
+    border-radius: 150px;
+  margin: auto 10px;
+}
+
+.top, header {
+  display: flex;
+}
+
+h4{
+  margin-bottom: 0px;
+}
+
+.zudert {
+  margin-top: 0px;
+}
+
+.post-img1, header {
+  width: 100%;
+}
+.likes:hover {
+  background: #252525;
+}
+
+.likes {
+  width: 30px;
+  margin-left: 10px;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+p, h4 {
+  font-weight: 900;
+}
+
+span, .zudert {
+ 
+  font-weight: 300;
+}
+
+span, p, .zudert, h4, {
+   color: #000000;
+   font-family: 'Source Sans Pro', sans-serif;
+} 
